@@ -1,0 +1,13 @@
+CORES=4
+MEMORY=4
+SHARE=/home/user
+
+QEMU_BINARY=qemu-system-x86_64
+
+INPUTS="/dev/input/by-id/usb-Logitech_Gaming_Mouse_G402_6D91317A5254-event-mouse \
+        /dev/input/by-id/usb-Logitech_G413_Carbon_Mechanical_Gaming_Keyboard_138736523537-event-kbd,grab_all=on,repeat=on"
+
+DRIVES="/dev/sda"
+
+VFIO_VIDEO="0000:01:00.0"
+VFIO_AUDIO="0000:01:00.1"
